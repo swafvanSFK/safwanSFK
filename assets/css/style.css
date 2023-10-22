@@ -269,6 +269,14 @@ h6 {
   position: relative;
 }
 
+@media (max-width: 767px) {
+  #hero {
+    background: url("../img/456.jpg") top right no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+  }
+}
+
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
